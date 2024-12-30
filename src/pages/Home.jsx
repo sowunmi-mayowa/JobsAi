@@ -46,20 +46,9 @@ const Home = () => {
                 <h3 className="text-2xl font-bold mb-4">Free Plan</h3>
                 <p className="text-gray-400 mb-6">Perfect for getting started</p>
                 <div className="text-4xl font-bold mb-6">$0</div>
-                <ul className="text-left space-y-4 mb-8">
-                  <li className="flex items-center">
-                    <BsLightningCharge className="text-primary mr-2" />
-                    Basic resume template
-                  </li>
-                  <li className="flex items-center">
-                    <BsLightningCharge className="text-primary mr-2" />
-                    5 interview questions
-                  </li>
-                  <li className="flex items-center">
-                    <BsLightningCharge className="text-primary mr-2" />
-                    Simple cover letter
-                  </li>
-                </ul>
+                  <ul className="text-left space-y-4 mb-8">
+                    <li className="flex items-center">⚡ Tailored resume</li>
+                  </ul>
                 <Link to={"/free"}>
                     <button className="w-full py-3 px-6 rounded-lg bg-primary hover:bg-primary/90 transition">
                     Get Started
@@ -73,22 +62,9 @@ const Home = () => {
                 <p className="text-gray-400 mb-6">For serious job seekers</p>
                 <div className="text-4xl font-bold mb-6">$29</div>
                 <ul className="text-left space-y-4 mb-8">
-                  <li className="flex items-center">
-                    <BsLightningCharge className="text-primary mr-2" />
-                    Advanced AI-powered resume
-                  </li>
-                  <li className="flex items-center">
-                    <BsLightningCharge className="text-primary mr-2" />
-                    20+ tailored interview questions
-                  </li>
-                  <li className="flex items-center">
-                    <BsLightningCharge className="text-primary mr-2" />
-                    Customized cover letter
-                  </li>
-                  <li className="flex items-center">
-                    <BsLightningCharge className="text-primary mr-2" />
-                    Priority support
-                  </li>
+                    <li>⚡ Tailored resume</li>
+                    <li>⚡ Customized cover letter</li>
+                    <li>⚡ Possible interview questions</li>
                 </ul>
                 <Link to={"/signup"}>
                   <button className="w-full py-3 px-6 rounded-lg bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition">
