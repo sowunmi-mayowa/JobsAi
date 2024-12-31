@@ -45,7 +45,7 @@ const Home = () => {
               <div className="p-8 rounded-lg bg-gray-800/50 border border-gray-700">
                 <h3 className="text-2xl font-bold mb-4">Free Plan</h3>
                 <p className="text-gray-400 mb-6">Perfect for getting started</p>
-                <div className="text-4xl font-bold mb-6">$0</div>
+                <div className="text-4xl font-bold mb-6">₦0</div>
                   <ul className="text-left space-y-4 mb-8">
                     <li className="flex items-center">⚡ Tailored resume</li>
                   </ul>
@@ -60,7 +60,7 @@ const Home = () => {
               <div className="p-8 rounded-lg bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary">
                 <h3 className="text-2xl font-bold mb-4">Premium Plan</h3>
                 <p className="text-gray-400 mb-6">For serious job seekers</p>
-                <div className="text-4xl font-bold mb-6">$29</div>
+                <div className="text-4xl font-bold mb-6">₦1,000</div>
                 <ul className="text-left space-y-4 mb-8">
                     <li>⚡ Tailored resume</li>
                     <li>⚡ Customized cover letter</li>
